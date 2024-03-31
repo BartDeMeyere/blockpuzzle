@@ -1,0 +1,90 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+canvas{
+
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.score{
+
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    padding: 15px;
+    top: 50px;
+    font-size: 5vh;
+  
+}
+
+.gameOverUI{
+
+    position: absolute;
+    border: 1px solid black;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    display: none;
+    border-radius: 10px;
+
+}
+
+.gameStartUI{
+
+    position: absolute;
+    border: 1px solid black;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width: 300px;
+    text-align: center;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+}
+
+.gameStartUI div{
+
+    padding: 15px;
+}
+
+.gameOverUI div{
+
+    padding: 15px;
+}
+
+.outputtitle{
+
+    font-size: large;
+  
+}
+
+.outputscore{
+
+    font-size:large;
+
+}
+
+button{
+
+    padding: 10px;
+    background-color: dodgerblue;
+    border: none;
+    outline: none;
+    width: 200px;
+    border-radius: 20px;
+    color:white;
+    cursor: pointer;
+}

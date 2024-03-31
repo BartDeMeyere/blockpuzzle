@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=yes">
+    <title>blockpuzzle</title>
+    <link rel="stylesheet" href="layout.css">
+</head>
+<body>
+    <canvas></canvas>
+    <div class="container">
+        <div class="score">0</div>
+    </div>
+    <div class="gameStartUI">
+        <div>Place the tetrominoes in the grid to create full rows , columns and 3X3 grids to increase your score.</div>
+        <div><button id="startgame">start</button></div>
+    </div>
+    <div class="gameOverUI">
+        <div class="outputtitle">game over!!</div>
+        <div class="outputscore">0</div>
+        <div><button id="newgame">new game</button></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/classes/cell.js"></script>
+    <script src="js/classes/tetromino.js"></script>
+    <script src="js/classes/miniblock.js"></script>
+    <script src="js/classes/scorelabel.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/events/mouseevents.js"></script>
+    <script src="js/events/touchevents.js"></script>
+    <script src="js/events/buttonevents.js"></script>
+</body>
+</html>
