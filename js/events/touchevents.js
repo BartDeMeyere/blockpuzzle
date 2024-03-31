@@ -116,7 +116,7 @@ $("canvas").on("touchend" , function(e){
    if(gameOver){
 
         $(".gameOverUI").css("display" ,"block")
-        $(".outputscore").html(score)
+        $(".outputscore").html("your score: " + score)
 
         if(canplaysound){
 
